@@ -1,13 +1,18 @@
-[gd_scene format=3 uid="uid://c4b51q85yd3yv"]
+[gd_scene load_steps=2 format=3 uid="uid://c4b51q85yd3yv"]
 
 [ext_resource type="Texture2D" uid="uid://cew0viq5ltkjf" path="res://icon.svg" id="1_wtcfe"]
 
-[node name="Node2D" type="Node2D" unique_id=1180329138]
+[node name="Node2D" type="Node2D"]
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=283233216]
+[node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(583, 286)
 texture = ExtResource("1_wtcfe")
 
-[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=68145502]
+[node name="Sprite2D2" type="Sprite2D" parent="."]
 position = Vector2(323, 285)
 texture = ExtResource("1_wtcfe")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "aaaaa"
