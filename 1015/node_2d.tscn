@@ -7,3 +7,7 @@
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=283233216]
 position = Vector2(583, 286)
 texture = ExtResource("1_wtcfe")
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=68145502]
+position = Vector2(323, 285)
+texture = ExtResource("1_wtcfe")
