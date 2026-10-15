@@ -7,3 +7,10 @@
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=283233216]
 position = Vector2(583, 286)
 texture = ExtResource("1_wtcfe")
+
+[node name="Button" type="Button" parent="." unique_id=2067268110]
+offset_left = 270.0
+offset_top = 307.0
+offset_right = 324.0
+offset_bottom = 338.0
+text = "staart"
